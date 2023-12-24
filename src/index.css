@@ -48,6 +48,11 @@ button:hover {
   background-color: #45a049;
 }
 
+button:disabled {
+  background-color: grey;
+  cursor: auto;
+}
+
 @media only screen and (min-width: 600px) {
   form {
     width: 100vw;
